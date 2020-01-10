@@ -1,0 +1,517 @@
+body {
+	font-family: 'Roboto', Arial, sans-serif;
+	padding: 0;
+    margin: 0;
+    color: #000;
+    letter-spacing: 0.02em;
+}
+
+.container {
+	width: 1140px;
+	margin: 0 auto;
+}
+button:focus, input:focus{
+    outline: none;
+}
+
+div, p, form, input, a, span, button {
+	box-sizing: border-box;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+
+ul, li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+a, a:hover, a:active{
+    text-decoration: none;
+}
+a
+{
+    text-decoration: none;
+    color: #000;
+    transition: all 0.5s ease;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto', Arial, sans-serif;
+	padding: 0;
+	margin: 0;
+	font-weight: 700;
+  
+}
+.d-flex{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+}
+.justify-content-space-between{
+    justify-content: space-between;
+}
+
+.bcg{
+    background: #f0f7f7 url('../img/scince.png');
+}
+.ali-center{
+    align-items: center;
+}
+
+/* header */
+
+
+.header{
+    padding: 16px 0 0 0;
+}
+.intro{
+    align-items: center;
+    padding-bottom: 24px;
+    box-shadow: inset 0 -10px 10px -10px rgba(113, 105, 105, 0.4);
+}
+.logo{
+    color: #1b3bde;
+    font-size: 14.5px;
+    width: 165px;
+}
+.logo__blue{
+    width: 49px;
+    height: 49px;
+    background: #1b3bde;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    margin-right: 13px;
+}
+.logo__blue .fa-plug{
+    color: #fff;
+    font-size: 25px;
+}
+.logo__text{
+    flex-direction: column;
+    font-weight: 900;
+    text-align: center;
+    align-items: center;
+    margin-top: 5px;
+    text-transform: uppercase;
+    letter-spacing: 0.002em;
+}
+.logo span{
+    font-size: 20.21px;
+}
+.navigation{
+    margin-left: 40px;
+    margin-top: 14px;
+}
+.number{
+    margin-top: 10px;
+}
+.menu__item{
+    display: block;
+    padding: 5px 20px;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 1.2em;
+    letter-spacing: 0.02em;
+}
+.menu__item:hover{
+    color: #fff;
+    background-color: #000;
+    border-radius: 5px;
+}
+    
+.number {
+    display: block;
+    font-size: 15px;
+    margin-left: 300px;
+    font-size: 15px;
+    font-weight: 900;
+    letter-spacing: 0.01em;
+}
+.offer{
+    padding: 89px 0 130px 0;
+}
+.offer__wrapper{
+    margin: 0 75px 0 35px;
+    justify-content: space-between;
+}
+.workshop{
+    width: 600px;
+    height: 210px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 100px 0 95px;
+}
+.workshop__online{
+    font-weight: 300;
+    font-size: 16px;
+    margin-bottom: -6px;
+    letter-spacing: 0.04em;
+
+}
+.workshop__title{
+    font-size: 45px;
+    font-weight: 900;
+    color: #1b3bde;
+    letter-spacing: 0.03em;
+    line-height: 1.2em;
+    text-align: center;
+}
+.workshop__date{
+    color: #fff;
+    background-color: #000;
+    width: 150px;
+    font-size: 14px;
+    padding: 5px 0;
+    text-align: center;
+    border-radius: 3px;
+}
+.booking{
+    height: 420px;
+    width: 330px;
+    background-color: #fff;
+    padding: 35px 30px;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+}
+.booking__title{
+    font-size: 17px;
+    margin-bottom: 13px;
+    letter-spacing: 0.02em;
+}
+.booking__description{
+    font-size: 14px;
+    text-align: center;
+    line-height: 1.5em;
+    margin-bottom: 17px;
+    letter-spacing: 0.02em;
+    width: 260px;
+}
+.booking__btn{
+    border: none;
+    width: 100%;
+    height: 60px;
+    background-color: #4acc4d;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: 700;
+    margin-top: 14px;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+}.booking__btn:hover{
+    cursor: pointer;
+    color: #4acc4d;
+    background-color: #fff;
+    border: 1px solid #4acc4d;
+}
+.booking__save{
+    font-size: 12px;
+    color: #adadad;
+}
+.booking__form_input{
+    height: 40px;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #acacac;
+    margin-bottom: 9px;
+    transition: all .4s ease;
+}
+.booking__form_input:active, .booking__form_input:focus{
+    outline: none;
+}
+.booking__form_input:active, 
+.booking__form_input:hover,
+.booking__form_input:focus{
+    border-bottom: 1px solid #000;
+}
+.booking__form_input::-webkit-input-placeholder {
+    opacity: 1;
+    -webkit-transition: all .4s ease;
+    transition: all .4s ease;
+}
+
+.booking__form_input:-moz-placeholder {
+    opacity: 1;
+    -webkit-transition: all .4s ease;
+    transition: all .4s ease;
+}
+
+.booking__form_input::-moz-placeholder {
+    opacity: 1;
+    -webkit-transition: all .4s ease;
+    transition: all .4s ease;
+}
+
+.booking__form_input:-ms-input-placeholder {
+    opacity: 1;
+    -webkit-transition: all .4s ease;
+    transition: all .4s ease;
+}
+.booking__form_input:focus::-webkit-input-placeholder {
+    color: #000;
+    opacity: 0;
+}
+.booking__form_input:focus:-moz-placeholder {
+    color: #000;
+    opacity: 0;
+}
+.booking__form_input:focus::-moz-placeholder {
+    color: #000;
+    opacity: 0;
+}
+.booking__form_input:focus:-ms-input-placeholder {
+    color: #000;
+    opacity: 0;
+}
+.booking__form_input:hover::-webkit-input-placeholder {
+    color: #000;
+}
+.booking__form_input:hover:-moz-placeholder {
+    color: #000;
+}
+.booking__form_input:hover::-moz-placeholder {
+    color: #000;
+}
+.booking__form_input:hover:-ms-input-placeholder {
+    color: #000;
+}
+.booking__form{
+    margin-bottom: 15px;
+}
+
+
+/* working */
+
+.working{
+    padding-top: 124px;
+}
+.freelancer{
+    height: 265px;
+    width: 470px;
+    background: #9d6bdc;
+    padding: 40px 57px;
+    color: #fff;
+    border-radius: 5px;
+}
+.freelancer__name{
+    font-weight: 900;
+    text-transform: none;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.freelancer__jobs{
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0.04em;
+    line-height: 1.5em;
+}
+.freelancer__jobs:last-of-type{
+    margin-bottom: 20px;
+}
+.freelancer__exp{
+    font-weight: 400;
+    font-size: 13px;
+    width: 215px;
+    align-items: center;
+    line-height: 1.5em;
+}
+.freelancer__exp span{
+    font-size: 39px;
+    font-weight: 900;
+    margin-right: 15px;
+}
+.freelancer__exp_small{
+    width: 100px;
+}
+.freelancer__more{
+    font-size: 14px;
+    font-weight: 900;
+    color: #fff;
+    display: block;
+    margin-top: 25px;
+}
+.text{
+    width: 450px;
+    flex-direction: column;
+}
+.payment{
+    margin: 60px 120px 0 0;
+}
+.text-title{
+    font-size: 28px;
+    font-weight: 900;
+    margin-bottom: 15px;
+}
+.text-content{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.6em;
+}
+.payment__money span{
+    font-weight: 700;
+}
+
+/*   ceiling    */
+
+.ceiling{
+    padding: 65px 0 120px 0;
+}
+.think{
+    margin: 70px  0 0 135px;
+}
+.money{
+    height: 265px;
+    width: 470px;
+    background: #f6e23a;
+    padding: 35px 50px;
+    font-size: 21px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.money__box{
+    height: 140px;
+    width: 250px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.money__dollar{
+    font-size: 43px;
+    font-weight: 900;
+}
+.shadow{
+    box-shadow:0 0 100px rgba(90, 90, 90, 0.26);
+}
+
+/* achievement */
+
+.achievement{
+    padding: 101px 0 113px;
+}
+.achievement__title{
+    margin-bottom: 70px;
+    line-height: 1.3em;
+    letter-spacing: 0.03em;
+}
+
+.achievement__number{
+    height: 80px;
+    width: 80px;
+    background: #1b3bde;
+    color: #fff;
+    font-weight: 900;
+    font-size: 26px;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    left: 0;
+    top: 0;
+}
+.achievement__content{
+    margin: 20px 0 0 35px;;
+    width: 220px;
+}
+.achievement__name{
+    color: #1b3bde;
+    font-weight: 900;
+    font-size: 19px;
+    margin-bottom: 10px;
+}
+.achievement__text{
+    font-size: 15px;
+    line-height: 1.4em;
+}
+
+/*  condition  */ 
+
+.condition{
+    padding: 82px 0 97px;
+}
+.condition__title{
+    margin-bottom: 70px;
+}
+.condition__card{
+    width: 350px;
+    height: 235px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 67px 40px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+}
+.fa-flag, .fa-money-bill-alt, .fa-meh{
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+.condition__text{
+    font-weight: 900;
+    font-size: 19px;
+    text-align: center;
+}
+.condition__color_green{
+    background-color: #4acc4d;
+}
+.condition__color_blue{
+    background-color: #4ac7cc;
+}
+.condition__color_pink{
+    background-color: #dc6b83;
+}
+
+/* registration  */
+
+.registration{
+    background: #3450e0 url('../img/blue_bcg.png');
+    padding: 100px 0 105px 8px;
+}
+.registration .workshop__wrapper{
+    margin: 0 80px 0 56px;
+    justify-content: space-between;
+}
+.registration .workshop{
+    width: 600px;
+    height: 195px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 100px 0px 90px -1px;
+    line-height: 1.99em;
+}
+
+.registration .workshop__title{
+    color: #fff;
+}
+.registration .workshop__online{
+    color: #fff;
+    
+}
+.registration .workshop__title{
+    font-size: 28px;
+    letter-spacing: 0.02em;
+}
+.registration .workshop__date{
+    color: #fff;
+    font-weight: 300;
+    font-size: 16px;
+    width: 300px;
+    justify-content: space-between;
+    margin-left: 18px;
+    background: none;
+}
+
+/* footer  */
+.footer{
+    padding: 24px 0;
+}
+.rights{
+    font-size: 12px;
+    margin-left: -89px;
+}
